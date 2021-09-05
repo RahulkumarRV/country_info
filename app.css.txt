@@ -1,0 +1,46 @@
+*{
+  margin: 0%;
+}
+
+.App{
+  display: flex;
+  justify-content: space-evenly;
+}
+.left_side{
+  margin: 1.5rem;
+}
+.right_side{
+  margin-top: 2rem;
+}
+.MuiButton-containedPrimary {
+
+  margin-top: 2rem;
+}
+.country_img{
+  width: 20px;
+  height: 20px;
+}
+.country_info_container{
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex: 1;
+
+}
+.country_container_img{
+  width: 20px;
+  height: 20px;
+}
+.country_container_info{
+  flex-direction: column;
+  margin-left: 10px;
+  align-items: center;         
+  justify-content: center; 
+
+}
+.country_container_info > h3{
+  margin: 0%;
+}
+.country_container_info > p{
+  margin: 0%;
+}
